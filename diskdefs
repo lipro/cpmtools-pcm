@@ -1875,3 +1875,15 @@ diskdef mds-sd
   boottrk 2
   os 2.2
 end
+
+# UNIMOR Bosman 8 - 3" 48 tpi SS/DD config, tested, working (EPROM 2311_87_10_20).
+diskdef bosman8
+  seclen 1024
+  tracks 40
+  sectrk 5
+  blocksize 1024
+  maxdir 64
+  skewtab 0,1,2,3,4
+  boottrk 0
+  os 2.2
+end
